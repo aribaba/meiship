@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+#top img {
+	display: block;
+}
+
+#top {
+	z-index: 1;
+}
+
+#top #fieldWrap {
+	position: relative;
+}
+
+#top #topLogo {
+	width: 42px;
+	height: 36px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 90px;
+	margin: auto;
+
+
+
+}
+
+#top #topMeiship {
+	width: 160px;
+	height: 28px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+
+}
+
+#top #desc {
+	width: 196px;
+	height: 18px;
+	position: absolute;
+	top: 90px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+
+}

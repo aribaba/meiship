@@ -1,0 +1,56 @@
+@charset="UTF-8";
+
+#mailTo {
+	width: 100%;
+	height: 110px;
+	background: #88BBC0;
+	padding: 10px 0;
+
+}
+
+#mailTo #address {
+	font-size: 14px;
+	color: white;
+	height: auto;
+	display: block;
+	margin-bottom: 10px;
+}
+
+#mailTo img {
+	width: 30px;
+	margin: 0 auto 10px;
+	display: block;
+}
+
+#mailTo a {
+	display: block;
+	margin: 0 auto 5px;
+	padding: 2px 4px;
+	background: #668c90;
+	width: 180px;
+	border-radius: 5px;
+}
+
+#mailTo a p {
+	color: white;
+
+}
+
+#notes {
+	text-align: left;
+	width: 300px;
+	margin: 40px auto 50px;
+}
+
+#notes li{
+	font-size: 10px;
+
+}
+
+#socialShare h2,p{
+	font-size: 14px;
+}
+
+#socialShare p {
+	display: block;
+}

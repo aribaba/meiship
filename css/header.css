@@ -1,0 +1,153 @@
+@charset "UTF-8";
+
+#header {
+	display: block;
+	height: 60px;
+	line-height: 60px;
+	width: 100%;
+	border-bottom: solid 1px #88BBC0;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 1;
+}
+
+#header p{
+	display: inline;
+	margin: 0;
+
+}
+
+
+#header #siteLogoField {
+	margin: 10px 0 10px 20px;
+	width: 145px;
+	height: 40px;
+	display: inline-block;
+	float: left;
+	
+	
+}
+
+#header #siteLogoField #logo{
+	height: 25px;
+	display: inline-block;
+}
+
+ 
+#header #siteLogoField #meiship {
+	height: 19px;
+	display: inline-block;
+	margin-bottom: 2.25px;
+	margin-left: 5px;
+}
+
+#header #subDesc{
+	font-size: 13px;
+	height: 55px;
+	color: #88BBC0;
+	vertical-align: middle;
+	display: inline-block;
+	margin-left: 10px;
+	font-family: 'mplus-1c-regular', sans-serif;
+
+}
+
+
+
+#dammyHeader {
+	display: block;
+	height: 60px;
+	line-height: 60px;
+	width: 100%;
+	border-bottom: solid 1px #88BBC0;
+	
+}
+
+#dammyHeader p{
+	display: inline;
+	margin: 0;
+
+}
+
+
+#dammyHeader #siteLogoField {
+	margin: 10px 0 10px 20px;
+	width: 145px;
+	height: 40px;
+	display: inline-block;
+	float: left;
+	
+	
+}
+
+#dammyHeader #siteLogoField #logo{
+	height: 25px;
+	display: inline-block;
+}
+
+ 
+#dammyHeader #siteLogoField #meiship {
+	height: 19px;
+	display: inline-block;
+	margin-bottom: 2.25px;
+	margin-left: 5px;
+}
+
+#dammyHeader #subDesc{
+	font-size: 13px;
+	height: 55px;
+	color: white;
+	vertical-align: middle;
+	display: inline-block;
+	margin-left: 10px;
+	font-family: 'mplus-1c-regular', sans-serif;
+
+}
+
+#pageNav {
+	height: 60px;
+	z-index: 2;
+	display: inline-block;
+	float: right;
+}
+#pageNav ul {
+	
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	height: inherit;
+}
+#pageNav ul li {
+
+	height: 60px;
+	line-height: 60px;
+	display: inline-block;
+	overflow: hidden;
+	font-family: 'mplus-1c-regular', sans-serif;
+
+}
+#pageNav ul li a {
+
+
+	display: inline-block;
+	font-size: 12px;
+	margin-right: 20px;
+}
+#pageNav ul li.activeStage a {
+	
+}
+
+.headerChange {
+	
+}
+
+.scroll {
+	display: none;
+}
+
+#line {
+	display: block;
+	height: 15px;
+	width: 100%;
+}
