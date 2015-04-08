@@ -8,11 +8,11 @@
 </section>
 
 
-<section id="stage2" class="stageBase forBeginner_1 headerChange">
+<section id="stage2" class="stageBase forBeginnerSection headerChange">
 	<?php include('frontPageFile/forBeginner.php'); ?>
 </section>
 
-<section id="stage3" class="stageBase forBeginner_2">
+<section id="stage3" class="stageBase meishipIsSection">
 	<?php include('frontPageFile/meishipIs.php'); ?>
 </section>
 
