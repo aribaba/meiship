@@ -28,7 +28,7 @@
 		<li class="twitter"></li>
 		<li class="facebook"></li>
 	</ul>
-	<ul id="footerNav">
+	<ul id="footerNav" class="ClearFix">
 		<li id="info" class="m-1c-light">メイシップについて</li>
 		<li id="privacyPoricy" class="m-1c-light">プライバシーポリシー</li>
 		<li id="FAQ" class="m-1c-light">問い合わせ・FAQ</li>
