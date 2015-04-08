@@ -14,11 +14,12 @@ $(function(){
 
 	$("#header").append('<nav id="pageNav"><ul></ul></nav>');
 	
-		$('#pageNav ul').append('<li class="pagePn1"><a href="javascript:void(0);">トップ</a></li>');
+		$('#pageNav ul').append('<li class="pagePn1"><a href="javascript:void(0);"></a></li>');
 		$('#pageNav ul').append('<li class="pagePn2"><a href="javascript:void(0);">初めての方へ</a></li>');
-		$('#pageNav ul').append('<li class="pagePn3"><a href="javascript:void(0);">フロー</a></li>');
-		$('#pageNav ul').append('<li class="pagePn4"><a href="javascript:void(0);">料金表</a></li>');
-		$('#pageNav ul').append('<li class="pagePn5"><a href="javascript:void(0);">オーダー</a></li>');
+		$('#pageNav ul').append('<li class="pagePn3"><a href="javascript:void(0);">メイシップとは</a></li>');
+		$('#pageNav ul').append('<li class="pagePn4"><a href="javascript:void(0);">フロー</a></li>');
+		$('#pageNav ul').append('<li class="pagePn5"><a href="javascript:void(0);">料金表</a></li>');
+		$('#pageNav ul').append('<li class="pagePn6"><a href="javascript:void(0);">オーダー</a></li>');
 
 
 	if(downBtn == 'show'){
