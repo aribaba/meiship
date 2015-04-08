@@ -124,7 +124,12 @@ p {
 	display: inline;
 }
 
-
+.stageBase {
+	background-image: url('../images/Common/backgroundAll.png');
+	background-position: center center;
+  	background-size: cover;
+ 	position: relative;
+}
 
 
  
