@@ -1,0 +1,101 @@
+@charset="UTF-8";
+
+.price h2 {
+	font-size: 12px;
+	margin-top: -20px;
+
+}
+
+.price #option {
+	border: solid 5px #668c90;
+  	width: 120px;
+  	border-radius: 10px;
+  	display: inline-block;
+}
+
+.price #option dt {
+	font-size: 14px;
+  	padding: 3px;
+ 	color: #668c90;
+  	font-weight: bold;
+  	border-bottom: solid 5px #668c90;
+  	display: block;
+
+}
+
+.price #option dd {
+	color: #668c90;
+	font-size: 10px;
+	height: 70px;
+	padding: 7px 0px;
+
+}
+
+.price #priceOption {
+
+}
+
+.price #priceTable {
+  	font-weight: bold;
+  	border: solid 5px #668c90;
+  	border-radius: 10px;
+  	margin:0 auto;
+  	width: 50%;
+  	min-width: 600px;
+
+}
+
+.price #priceTable .priceTableCell {
+	  margin: 2px 0 0 0;
+	  position: relative;
+
+}
+
+.price #priceTableDd {
+	width: 97%;
+}
+
+
+.price #priceTableDt {
+	border-bottom: solid 5px #668c90;
+	display: block;
+	color: #668c90;
+	font-size: 16px;
+	padding: 5px 0;	
+
+}
+
+.price #priceTable .busuinessCardName {
+	display: inline-block;
+	text-align: left;
+	color: #668c90;
+	margin-left: 10px;
+	float: left;
+	height: 59px;
+	line-height: 59px;
+}
+
+.price #priceTable .busuinessCardType {
+	display: inline-block;
+	margin: 4px 20px 2px 0;
+	font-weight: normal;
+	float: left;
+}
+.price #priceTable .busuinessCardType:last-child {
+	margin-right: 0px;
+}
+
+.price #priceTable .BCimage {
+	display: block;
+}
+
+.price #priceTable .BCDesc {
+	font-size: 10px;
+	display: block;
+}
+
+.price #priceOption {
+	margin-top: -15px;
+}
+
+
