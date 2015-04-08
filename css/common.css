@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+html {
+	font-size: 62.5%;
+}
+
 @font-face {
 	font-family: 'mplus-1c-thin';
 	src: url('<?php bloginfo('template_url'); ?>/font/mplus-1c-thin.ttf');
@@ -88,7 +92,8 @@ a {
 }
 
 span {
-	font-size: 0.6%;
+	font-size: 10px;
+	font-size: 1.0rem;
 	/*display: none;*/
 }
 
@@ -104,14 +109,17 @@ span {
  }
 
  dd {
- 	 	font-size: 12px;
+ 	 font-size: 12px;
+ 	 font-size: 1.2rem;
  }
  dt {
  	font-size: 14px;
+ 	font-size: 1.4rem;
  }
 
 p {
 	font-size: 12px;
+	font-size: 1.2rem;
 	font-family: 'mplus-1c-thin', sans-serif;
 	display: inline;
 }
