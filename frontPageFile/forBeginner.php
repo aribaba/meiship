@@ -5,7 +5,7 @@
 <div class="fieldWrap">
 
 
-	<p class="m-1p-light" id="forBeginner2Title">名刺作りに困ったことはありませんか？</p>
+	<p class="m-1p-light forBeginner2Title" >名刺作りに困ったことはありませんか？</p>
 
 	<div id="forBeginner2Desc">
 		
@@ -15,7 +15,7 @@
 
 			<img id="forBeginner2Arrow" class="arrow" src="<?php bloginfo('template_url'); ?>/images/forBeginner/矢印_blue.png" alt="">
 
-			<p class="m-1c-light">全て解決します！</p>
+			<p class="m-1c-light forBeginner2Title">全て解決します！</p>
 
 			</div>
 			<div id="slideArea">

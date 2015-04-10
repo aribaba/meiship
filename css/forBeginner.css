@@ -6,20 +6,19 @@
 
 #meishipIs img {
 	display: inline-block;
-	width: 65px;
+	width: 12%;
 } 
 
 #meishipIs p {
 	display: inline;
 	font-size: 10px;
+	font-size: 1.0rem;
 	color: #88BBC0;
 	font-family: 'mplus-2p-light', sans-serif;
 }
 
 #meishipDesc p {
 	display: inline;
-	font-size: 10px;
-	
 	font-family: 'mplus-2p-light', sans-serif;
 }
 
@@ -39,6 +38,7 @@
 #pricePerHandred p {
 	font-family: 'mplus-2p-regular', sans-serif;
 	font-size: 12px;
+	font-size: 1.2rem;
 	color: black;
 	display: inline;
 }
@@ -46,6 +46,7 @@
 
 #pricePerHandred .strong {
 	font-size: 14px;
+	font-size: 1.4rem;
 	color: black;
 	display: inline;
 }
@@ -54,6 +55,7 @@
 #pricePerHandred span {
 	font-family: 'mplus-2p-regular', sans-serif;
 	font-size: 8px;
+	font-size: 0.8rem;
 	color: black;
 	margin-left: 15px;
 }
@@ -61,6 +63,7 @@
 #alternativePrice p{
 	font-family: 'mplus-2p-light', sans-serif;
 	font-size: 10px;
+	font-size: 1.0rem;
 	display: inline;
 }
 #alternativePrice {
@@ -110,7 +113,8 @@
 
 #feature .featureColumn .explanation {
 	font-family: 'mplus-1c-thin', sans-serif;
-	font-size: 10px;
+	font-size: 12px;
+	font-size: 1.2rem;
 	display: block;
 	margin: 5px auto;
 
@@ -123,17 +127,14 @@
 	margin: 30px 0;
 }
 
-#forBeginner2Title {
+.forBeginner2Title {
 	font-size: 16px;
 	margin-bottom: 20px;
 	display: block;
 
 }
 
-#forBeginner2Desc p {
-	font-size: 12px;
 
-}
 
 #forBeginner2Arrow {
 	margin: 5px auto 10px;
