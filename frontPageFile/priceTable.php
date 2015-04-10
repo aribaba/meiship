@@ -1,6 +1,6 @@
 	<div class="fieldWrap">
 		
-		<h2><img src="" alt="">なら印刷代、デザイン料込みで格安の1190円/100枚！</h2>
+		<h2><img src="<?php bloginfo('template_url'); ?>/images/Header/headerLogoMeishipGreen.png" alt="">なら印刷代、デザイン料込みで格安の1190円/100枚！</h2>
 
 		<div id="priceOption">
 

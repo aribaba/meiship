@@ -23,7 +23,9 @@
 					
 				</dl>
 			</div>
-			<img id="OF3-4" src="<?php bloginfo('template_url'); ?>/images/OrderFlow/矢印.png" alt="">
+
+			<img id="OF3-4" src="<?php bloginfo('template_url'); ?>/images/OrderFlow/arrawBlue.png" alt="">
+			
 			<div id="OF4">
 				<p class="m-1c-light">4, <img src="<?php bloginfo('template_url'); ?>/images/OrderFlow/（注文流れ）チェックマーク_30.png" alt=""> デザイン確定</p>
 			</div>
@@ -34,7 +36,7 @@
           ※支払方法はクレジットカード払いまたは銀行振込になります</span>
           <a id="toBaseMypage" href="#"><img class="base" src="<?php bloginfo('template_url'); ?>/images/OrderFlow/BASEロゴ.png" alt="">特設購入ページへ</a>
 			</div>
-			<img id="OF5-6" src="<?php bloginfo('template_url'); ?>/images/OrderFlow/矢印.png" alt="">
+
 			<div id="OF6">
 				<p class="m-1c-light">6, お支払い確認後、翌日発送致します。</p>
 			</div>
