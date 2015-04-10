@@ -83,7 +83,7 @@
 				</dl>
 
 				<dl class="priceTableCell ClearFix ">
-					<dt class="busuinessCardName">超格安名刺</dt>
+					<dt class="busuinessCardName">格安名刺</dt>
 					<dd>
 						<dl class="busuinessCardType">
 							<dt class="BCimage">
@@ -137,7 +137,7 @@
 
 
 				<dl class="priceTableCell ClearFix">
-					<dt class="busuinessCardName">超格安名刺</dt>
+					<dt class="busuinessCardName">リッチ名刺</dt>
 					<dd>
 						<dl class="busuinessCardType">
 							<dt class="BCimage">
@@ -190,7 +190,7 @@
 				</dl>
 
 				<dl class="priceTableCell ClearFix">
-					<dt class="busuinessCardName">超格安名刺</dt>
+					<dt class="busuinessCardName">特殊紙</dt>
 					<dd>
 						<dl class="busuinessCardType">
 							<dt class="BCimage">
@@ -243,7 +243,7 @@
 				</dl>
 
 				<dl class="priceTableCell ClearFix">
-					<dt class="busuinessCardName">超格安名刺</dt>
+					<dt class="busuinessCardName">特殊紙2</dt>
 					<dd>
 						<dl class="busuinessCardType">
 							<dt class="BCimage">

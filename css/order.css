@@ -2,14 +2,14 @@
 
 #mailTo {
 	width: 100%;
-	height: 110px;
+	min-width: 800px;
+	height: 140px;
 	background: #88BBC0;
 	padding: 10px 0;
 
 }
 
 #mailTo #address {
-	font-size: 14px;
 	color: white;
 	height: auto;
 	display: block;
@@ -43,7 +43,8 @@
 }
 
 #notes li{
-	font-size: 13px;
+	font-size: 14px;
+	font-size: 1.4rem;
 
 }
 
@@ -62,9 +63,6 @@
 
 }
 
-#socialShare p{
-	font-size: 14px;
-}
 
 #socialShare p {
 	display: block;
@@ -73,5 +71,6 @@
 #Footer ul li {
 	float: left;
 	font-size: 10px;
+	font-size: 1.0rem;
 	padding-left: 10px;
 }
