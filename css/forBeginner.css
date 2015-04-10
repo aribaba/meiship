@@ -148,11 +148,13 @@
 	font-size: 16px;
 	font-size: 1.6rem;
 	margin-bottom: 2rem;
-	display: block;
+	display: inline;
 
 }
 
-
+#forBeginner2Desc {
+	margin-top: 2rem;
+}
 
 #forBeginner2Arrow {
 	margin: 0.5rem auto 1rem;
