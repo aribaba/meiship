@@ -13,7 +13,7 @@
 					</dd>
 				</dl>
 				<dl id="OF2">
-					<dt class="m-1c-light">2 頂いた参考データをもとにメイシップがデザイン
+					<dt class="m-1c-light">2 頂いた参考データをもとにメイシップがデザイン<br>
 					お客様に完成デザインデータ(PDF)を送信致します</dt>
 					<dd>
 					<div class="OF123Column">
@@ -24,7 +24,8 @@
 					</dd>
 				</dl>
 				<dl id="OF3">
-					<dt class="m-1c-light">3 お客様が完成データをご確認後、要望に応じて何度でも校正致します<span>※追加料金なし</span></dt>
+					<dt class="m-1c-light">3 お客様が完成データをご確認後、<br>
+					要望に応じて何度でも校正致します<span>※追加料金なし</span></dt>
 					
 					<dd><div class="OF123Column"><img src="<?php bloginfo('template_url'); ?>/images/OrderFlow/（注文流れ）パソコン_50.png" alt="">
 					<img src="<?php bloginfo('template_url'); ?>/images/OrderFlow/（注文流れ）鉛筆_50.png" alt=""></div></dd>

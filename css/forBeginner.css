@@ -18,8 +18,9 @@
 }
 
 #meishipDesc p {
-	display: inline;
+	display: block;
 	font-family: 'mplus-2p-light', sans-serif;
+	min-width: 63rem;
 }
 
 #pricePerHandred {
@@ -71,13 +72,12 @@
 }
 
 #feature {
-	width: 100%;
-	background: #fff;
-	display: table;
-	position: absolute;
-	bottom: 10%;
-	height: 25%;
-
+  width: 100%;
+  background: #fff;
+  display: table;
+  height: 25%;
+  margin-top: 5rem;
+  position: relative;
 }
 
 #feature .featureColumn {
@@ -120,6 +120,7 @@
 
 #feature .featureColumn dd {
 	width: 100%;
+	min-width: 330px;
 }
 
 
