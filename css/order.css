@@ -2,10 +2,11 @@
 
 #mailTo {
 	width: 100%;
-	min-width: 800px;
-	height: 140px;
+	min-width: 80rem;
+	height: 14rem;
 	background: #88BBC0;
-	padding: 10px 0;
+	padding: 1rem 0;
+	position: relative;
 
 }
 
@@ -13,22 +14,31 @@
 	color: white;
 	height: auto;
 	display: block;
-	margin-bottom: 10px;
+	margin-bottom: 1rem;
+	font-size: 1.8rem;
 }
 
 #mailTo img {
-	width: 30px;
-	margin: 0 auto 10px;
+	width: 4rem;
+	margin: 0 auto;
+	position: absolute;
+	top: 45%;
+	left: 0;
+	right: 0;
 	display: block;
 }
 
 #mailTo a {
 	display: block;
-	margin: 0 auto 5px;
-	padding: 2px 4px;
+	margin: 0 auto;
+	padding: 0.2rem 0.4rem;
 	background: #668c90;
-	width: 180px;
-	border-radius: 5px;
+	position: absolute;
+	bottom: 2rem;
+	left: 0;
+	right: 0;
+	width: 18rem;
+	border-radius: 0.5rem;
 }
 
 #mailTo a p {
@@ -38,29 +48,24 @@
 
 #notes {
 	text-align: left;
-	width: 400px;
-	margin: 40px auto 50px;
+	margin: 6rem auto 5rem;
+	display: table;
 }
 
 #notes li{
 	font-size: 14px;
 	font-size: 1.4rem;
-
+	display: table;
 }
 
 
 #Footer {
 	width: 100%;
-	height: 50px;
+	height: 5rem;
 	background: #ccc;
 	position: absolute;
 	left: 0;
 	bottom: 0;
-}
-
-#Footer ul li {
-	list-style: none;
-
 }
 
 
@@ -69,8 +74,9 @@
 }
 
 #Footer ul li {
+	list-style: none;
 	float: left;
 	font-size: 10px;
 	font-size: 1.0rem;
-	padding-left: 10px;
+	padding-left: 1rem;
 }

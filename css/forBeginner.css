@@ -25,7 +25,7 @@
 #pricePerHandred {
 	display: block;
 	background: #fafafa;
-	margin: 50px auto 15px;
+	margin: 5rem auto 1rem;
 	width: 310px;
 	padding: 10px;
 	border-radius: 5px;
@@ -76,6 +76,7 @@
 	display: table;
 	position: absolute;
 	bottom: 10%;
+	height: 25%;
 
 }
 
@@ -84,6 +85,7 @@
 	display: table-cell;
 	height: 160px;
 	margin: 0;
+	position: relative;
 }
 
 #feature #highQuality {
@@ -100,23 +102,37 @@
 
 #feature .featureColumn dt {
 	font-family: 'mplus-1c-light', sans-serif;
-	font-size: 14px;
-	margin: 5px auto;
+	font-size: 16px;
+	font-size: 1.6rem;
+	margin: 1rem auto;
 	display: block;
 }
 
 #feature .featureColumn dd img {
 	display: block;
-	margin: 5px auto;
+	margin: 1rem auto;
+	width: 11%;
+	position: absolute;
+	top: 25%;
+	left: 0;
+	right: 0;
+}
+
+#feature .featureColumn dd {
+	width: 100%;
 }
 
 
 #feature .featureColumn .explanation {
 	font-family: 'mplus-1c-thin', sans-serif;
-	font-size: 12px;
-	font-size: 1.2rem;
+	font-size: 14px;
+	font-size: 1.4rem;
 	display: block;
 	margin: 5px auto;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
 
 }
 
@@ -129,7 +145,8 @@
 
 .forBeginner2Title {
 	font-size: 16px;
-	margin-bottom: 20px;
+	font-size: 1.6rem;
+	margin-bottom: 2rem;
 	display: block;
 
 }
@@ -137,14 +154,14 @@
 
 
 #forBeginner2Arrow {
-	margin: 5px auto 10px;
+	margin: 0.5rem auto 1rem;
 	display: block;
 }
 
 
 #slideArea {
 	width: 100%;
-	height: 300px;
+	height: 30rem;
 	background: #aaa;
 	margin: 15px 0;
 }
