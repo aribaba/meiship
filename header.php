@@ -30,6 +30,9 @@ echo ' | ' . sprintf('%sページ',
 <script src="<?php bloginfo('template_url'); ?>/js/verticalPageScroll.js"></script>
 <script src="<?php bloginfo('template_url'); ?>/js/jquery.waypoints.js"></script>
 <script src="<?php bloginfo('template_url'); ?>/js/entrance.js"></script>
+<script src="<?php bloginfo('template_url'); ?>/js/slick.min.js"></script>
+<script src="<?php bloginfo('template_url'); ?>/js/forBeginnerSlide.js"></script>
+
 <!-- <script src="<?php bloginfo('template_url'); ?>/js/scrollHeader.js"></script> -->
 
 

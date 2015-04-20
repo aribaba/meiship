@@ -19,7 +19,18 @@
 
 			</div>
 			<div id="slideArea">
-				
+				<div class="slider center">
+					<div>
+						<img src="<?php bloginfo('template_url'); ?>/images/forBeginner/slide1.png" width="40px" alt="">
+					</div>
+					<div>
+						<img src="<?php bloginfo('template_url'); ?>/images/forBeginner/slide2.png" width="40px" alt="">	
+					</div>
+					<div>
+						<img src="<?php bloginfo('template_url'); ?>/images/forBeginner/slide3.png" width="40px" alt="">	
+					</div>
+					
+				</div>
 			</div>
 
 		<p class="m-1c-light">入稿はスマホで撮った写真、jpeg、PDF、photoshop、illustrator、等とにかく参考になるものをお送りください。<br>
