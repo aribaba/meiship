@@ -18,7 +18,7 @@
 	top: 0;
 	left: 0;
 	right: 0;
-	bottom: 16%;
+	bottom: 26vh;
 	margin: auto;
 
 
@@ -37,7 +37,7 @@
 #top #desc {
 	width: 15.5%;
 	position: absolute;
-	top: 12%;
+	top: 21vh;
 	bottom: 0;
 	margin: auto;
 
