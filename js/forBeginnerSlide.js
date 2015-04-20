@@ -6,6 +6,7 @@ $('.center').slick({
   slidesToShow: 1,
   infinite: true,
   autoplay: true,
+  dots: true,
   responsive: [
     {
       breakpoint: 768,

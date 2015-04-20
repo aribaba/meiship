@@ -13,12 +13,12 @@
 }
 
 #top #topLogo {
-	width: 4.4%;
+	width: 4%;
 	position: absolute;
 	top: 0;
 	left: 0;
 	right: 0;
-	bottom: 11rem;
+	bottom: 16%;
 	margin: auto;
 
 
@@ -37,7 +37,7 @@
 #top #desc {
 	width: 15.5%;
 	position: absolute;
-	top: 8rem;
+	top: 12%;
 	bottom: 0;
 	margin: auto;
 
