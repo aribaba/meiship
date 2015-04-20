@@ -42,24 +42,24 @@ $(function(){
 		}
 		$('#desc').css('left', (dx / 10) + 'rem');
 	}
-	// var TopDescInterval = setInterval(MeishipSlideD,15);
+	var TopDescInterval = setInterval(MeishipSlideD,15);
 
-	// 	function motionDown(){
-	// 		var stageHeightD = setBase.height(),
-	// 		contTopDown = parseInt(setWrap.css('top')),
-	// 		moveTopDown = contTopDown - stageHeightD;
-	// 		$('input,textarea').blur();
+		function motionDown(){
+			var stageHeightD = setBase.height(),
+			contTopDown = parseInt(setWrap.css('top')),
+			moveTopDown = contTopDown - stageHeightD;
+			$('input,textarea').blur();
 
-	// 		var contHeight = setWrap.height(),
-	// 		maxHeightAdj = -(contHeight - stageHeightD);
+			var contHeight = setWrap.height(),
+			maxHeightAdj = -(contHeight - stageHeightD);
 
-	// 			setWrap.stop().animate({top:moveTopDown},scrollSpeed,scrollEasing);
-	// 			setNav.find('li.activeStage').removeClass('activeStage').next().addClass('activeStage');
+				setWrap.stop().animate({top:moveTopDown},scrollSpeed,scrollEasing);
+				setNav.find('li.activeStage').removeClass('activeStage').next().addClass('activeStage');
 
-	// 			var acvStageN = parseInt($('body').attr('data-page')),
-	// 			setNext = acvStageN+1;
-	// 			$('body').attr('data-page',setNext);
-	// 		}
+				var acvStageN = parseInt($('body').attr('data-page')),
+				setNext = acvStageN+1;
+				$('body').attr('data-page',setNext);
+			}
 
 		
 
