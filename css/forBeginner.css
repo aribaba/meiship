@@ -1,12 +1,12 @@
 @charset "UTF-8";
 
 #meishipIs {
-	margin: 10px auto 30px;
+	margin: 0vh auto 5vh;
 }
 
 #meishipIs img {
 	display: inline-block;
-	width: 12%;
+	width: 21vh;
 } 
 
 #meishipIs p {
@@ -20,7 +20,7 @@
 #meishipDesc p {
 	display: block;
 	font-family: 'mplus-2p-light', sans-serif;
-	min-width: 63rem;
+	min-width: 33vw;
 }
 
 #pricePerHandred {
@@ -75,7 +75,7 @@
   width: 100%;
   background: #fff;
   display: table;
-  height: 25%;
+  height: 28vh;
   margin-top: 5rem;
   position: relative;
 }
@@ -83,7 +83,7 @@
 #feature .featureColumn {
 	width: 33%;
 	display: table-cell;
-	height: 160px;
+	height: 28vh;
 	margin: 0;
 	position: relative;
 }
@@ -111,7 +111,7 @@
 #feature .featureColumn dd img {
 	display: block;
 	margin: 1rem auto;
-	width: 11%;
+	width: 8vh;
 	position: absolute;
 	top: 25%;
 	left: 0;

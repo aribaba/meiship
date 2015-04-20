@@ -2,8 +2,8 @@
 
 #header {
 	display: block;
-	height: 60px;
-	line-height: 60px;
+	height: 8.3vh;
+	line-height: 8.3vh;
 	width: 100%;
 	min-width: 865px;
 	border-bottom: solid 1px #88BBC0;
@@ -59,8 +59,8 @@
 
 #dammyHeader {
 	display: block;
-	height: 60px;
-	line-height: 60px;
+	height: 8.3vh;
+	line-height: 8.3vh;
 	width: 100%;
 	border-bottom: solid 1px #88BBC0;
 	
