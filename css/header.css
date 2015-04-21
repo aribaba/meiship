@@ -46,7 +46,7 @@
 
 #header #subDesc{
 	font-size: 13px;
-	height: 55px;
+	height: 8.3vh;
 	color: #88BBC0;
 	vertical-align: middle;
 	display: inline-block;
@@ -98,7 +98,7 @@
 
 #dammyHeader #subDesc{
 	font-size: 13px;
-	height: 55px;
+	height: 8.3vh;
 	color: white;
 	vertical-align: middle;
 	display: inline-block;
@@ -108,7 +108,7 @@
 }
 
 #pageNav {
-	height: 60px;
+	height: 8.3vh;
 	min-width: 400px;
 	z-index: 2;
 	display: inline-block;
@@ -123,8 +123,8 @@
 }
 #pageNav ul li {
 
-	height: 60px;
-	line-height: 60px;
+	height: 8.3vh;
+	line-height: 8.3vh;
 	display: inline-block;
 	overflow: hidden;
 	font-family: 'mplus-1c-regular', sans-serif;
