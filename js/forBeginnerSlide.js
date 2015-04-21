@@ -2,7 +2,7 @@ $("document").ready(function(){
 
 $('.center').slick({
   centerMode: true,
-  centerPadding: '100px',
+  centerPadding: '120px',
   slidesToShow: 1,
   infinite: true,
   autoplay: true,
