@@ -39,17 +39,17 @@ echo ' | ' . sprintf('%sページ',
 <link rel="shortcut icon" href="">
 	<?php wp_head(); ?>
 </head>
-	<body>
+	<body id="frontBody">
 
 		<div id="Wrap">
 		<header id="header" class="ClearFix">
-			<div id="siteLogoField">
+			<a href="http://localhost:8888/kawakamiSite/#!page1" id="siteLogoField">
 				<img id="logo" src="<?php bloginfo('template_url'); ?>/images/Header/headerLogo71x60.png" alt="">
 				
 					<img id="meiship" src="<?php bloginfo('template_url'); ?>/images/Header/headerLogoMeishipGreen.png" alt="">		
 					
 				
-			</div><!-- /siteLogoField -->
+			</a><!-- /siteLogoField -->
 			<span id="subDesc">オーダメイド名刺であなたの印象をデザインする</span>
 			
 		</header><!-- /header -->

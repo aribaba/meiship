@@ -6,7 +6,7 @@
 /*ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー*/
 
 
-body {
+#frontbody {
 	position: relative;
 	overflow: hidden;
 	visibility: hidden;
