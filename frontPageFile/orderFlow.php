@@ -43,7 +43,7 @@
 				安全にお支払いして頂きます。</p>
 				<span class="m-1c-light">希望の紙、オプションを選択してカートに入れ注文してください<br>
           ※支払方法はクレジットカード払いまたは銀行振込になります</span>
-          <a id="toBaseMypage" href="#"><img class="base" src="<?php bloginfo('template_url'); ?>/images/OrderFlow/BASEロゴ.png" alt="">特設購入ページへ</a>
+          <a id="toBaseMypage" href="#" class="fade fade-black"><img class="base" src="<?php bloginfo('template_url'); ?>/images/OrderFlow/BASEロゴ.png" alt="">特設購入ページへ</a>
 			</div>
 
 			<div id="OF6">
@@ -52,16 +52,16 @@
 
 			<div id="linkArea">
 			<div id="toBase">				
-			<a href="#"><img class="base" src="<?php bloginfo('template_url'); ?>/images/OrderFlow/BASEロゴ.png" alt="">ウェブサイト></a>
+			<a href="#" class="fade fade-black"><img class="base" src="<?php bloginfo('template_url'); ?>/images/OrderFlow/BASEロゴ.png" alt="">ウェブサイト></a>
 			<!-- <span>(リンク先:https://thebase.in/)</span> -->
 			</div>
 			<div id="toBasePurchase">				
-			<a href="#"><img class="base" src="<?php bloginfo('template_url'); ?>/images/OrderFlow/BASEロゴ.png" alt="">購入方法について></a>
+			<a href="#" class="fade fade-black"><img class="base" src="<?php bloginfo('template_url'); ?>/images/OrderFlow/BASEロゴ.png" alt="">購入方法について></a>
 			<!-- <span>(リンク先:http://baseu.jp/launch_web_shop/20130626110031/)</span> -->
 			</div>
 			</div>
 
-			<a id="orderButton" href="#" title=""><img src="<?php bloginfo('template_url'); ?>/images/Header/headerLogo71x60.png" alt="">ご注文</a>
+			<a id="orderButton" href="#" class="fade fade-black"><img src="<?php bloginfo('template_url'); ?>/images/Header/headerLogo71x60.png" alt="">ご注文</a>
 
 		</div>
 	</div><!--/.fieldWrap -->

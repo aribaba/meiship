@@ -7,22 +7,31 @@
 		<dl id="option">
 			<dt class="">商品仕様</dt>
 			<dd>サイズ: 一般名刺91mm×55mm</dd>
+			<a href="#" title="">紙の仕様></a>
 		</dl>
 		<dl id="option">
 			<dt class="">デザイン料</dt>
-			<dd>サイズ: 一般名刺91mm×55mm</dd>
+			<dd>デザイン料一律¥830</dd>
+			<span>※何回校正してもこの価格です。</span>
 		</dl>
 		<dl id="option">
 			<dt class="">配送料</dt>
-			<dd>サイズ: 一般名刺91mm×55mm</dd>
+			<dd>メール便:¥160
+			<br>[300枚(3箱)まで]
+			<br>速達メール便:¥260
+			<br>宅配便:¥380</dd>
+			<span>※発送、印刷はパートナー企業が行います</span>
+			<span>※一部離島は別途離島料金がかかります</span>
 		</dl>
 		<dl id="option">
 			<dt class="">オプション①</dt>
-			<dd>サイズ: 一般名刺91mm×55mm</dd>
+			<dd>角丸加工 315円/100枚</dd>
+			<span>※名刺の角を丸くする加工。角丸の半径は R6(6mm)です。</span>
 		</dl>
 		<dl id="option">
 			<dt class="">オプション②</dt>
-			<dd>サイズ: 一般名刺91mm×55mm</dd>
+			<dd>プラスチック名刺箱 50円/100枚</dd>
+			<span>※厚みがあるため宅急便での発送です。</span>
 		</dl>
 		</div>
 

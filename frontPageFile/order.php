@@ -3,7 +3,7 @@
 			<p class="m-1c-regular" id="address">ご注文方法お客様の氏名・電話番号・メールアドレス・名刺に掲載する情報・デザインのデータや要望等<br>
 				を明記の上、下記アドレスご連絡ください。</p>
 			<img src="<?php bloginfo('template_url'); ?>/images/Order/mailIcon.png" alt="">
-			<a href="#" title="">
+			<a href="#" class="fade fade-black">
 				<p class="m-1c-regular">meiship.info@gmail.com</p>
 			</a>
 			</div>

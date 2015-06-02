@@ -127,7 +127,8 @@
 	display: block;
 	font-size: 1rem;
 	width: 12vw;
-	height: 1rem;
+	  height: 1.7rem;
+  line-height: 1.7rem;
 	margin: 0.7rem auto;
 	vertical-align: top;
 }
@@ -194,7 +195,9 @@
 	background: #88BBC0;
 	padding: 0.5rem;
 	color: #fff;
-	width: 14rem;
+	width: 20rem;
+	height: 3rem;
+	line-height: 3rem;
 	box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem #bbb;
 }
 

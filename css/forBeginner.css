@@ -148,13 +148,18 @@
 .forBeginner2Title {
 	font-size: 16px;
 	font-size: 1.6rem;
-	margin-bottom: 2rem;
-	display: inline;
+	display: block;
+	height: auto;
+	margin: 1rem auto 1rem;
+	max-width: 450px;
+
+
 
 }
 
 #forBeginner2Desc {
-	margin-top: 2rem;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
 }
 
 #forBeginner2Arrow {
@@ -180,6 +185,6 @@
 
 .slider img{
 	width: 100%;
-	height: 45vh;
+	height: 300px;
 	display: inline-block;
 }

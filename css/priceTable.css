@@ -20,6 +20,8 @@
   	border-radius: 1rem;
   	display: inline-block;
   	margin-left: 1rem;
+  	min-width: 150px;
+  	background: #fafafa;
 }
 
 .price #option dt {
@@ -49,9 +51,11 @@
   	border: solid 0.5rem #668c90;
   	border-radius: 1rem;
   	margin:0 auto;
-  	height: 54vh;
+  	height: 50vh;
   	width: 50vw;
   	min-width: 62rem;
+  	min-height: 380px;
+  	background: #fafafa;
 
 }
 
