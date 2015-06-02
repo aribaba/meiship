@@ -1,25 +1,30 @@
 $(function(){
-	var TopMeiship  = $('#topMeiship'),
-	mh = TopMeiship.height(),
-	mw = TopMeiship.width(),
-	mleft = -TopMeiship.width();
 
-	TopMeiship.css('left', (mleft / 10 ) + 'rem');
+	// var TopMeiship  = $('#topMeiship'),
+	// mh = TopMeiship.height(),
+	// mw = TopMeiship.width(),
+	// mleft = -TopMeiship.width();
 
-	var x = mleft;
-	var v = 0;
-	var goal = ($(window).width() / 2) - (mw / 2);
+	// TopMeiship.css('left', (mleft / 10 ) + 'rem');
 
-	function MeishipSlideT() {
-		x+= ++v;
-		console.log(x);
-		if(x >= goal){
-			x = goal;
-			clearInterval(topMeishipInterval);
-		}
-		$('#topMeiship').css('left', (x / 10) + 'rem');
-	}
-	var topMeishipInterval = setInterval(MeishipSlideT,10);
+	// var x = mleft;
+	// var v = 0;
+	// var goal = ($(window).width() / 2) - (mw / 2);
+
+	// function MeishipSlideT() {
+	// 	x+= ++v;
+	// 	console.log(x);
+	// 	if(x >= goal){
+	// 		x = goal;
+	// 		clearInterval(topMeishipInterval);
+	// 	}
+	// 	$('#topMeiship').css('left', (x / 10) + 'rem');
+	// }
+	// var topMeishipInterval = setInterval(MeishipSlideT,10);
+
+
+
+	setTimeout("$('#topMeiship').fadeIn(500)",500);
 
 
 	var TopDesc  = $('#desc'),
@@ -33,34 +38,30 @@ $(function(){
 	var dv = 0;
 	var dgoal = ($(window).width() / 2) - (dw / 2);
 
+
+	setTimeout(wrap(),1000);
+
+	function wrap(){
+		console.log("wrap");
 	function MeishipSlideD() {
 		dx+= ++dv;
-		console.log(dx);
 		if(dx >= dgoal){
 			dx = dgoal;
 			clearInterval(TopDescInterval);
 		}
 		$('#desc').css('left', (dx / 10) + 'rem');
 	}
+
 	var TopDescInterval = setInterval(MeishipSlideD,15);
 
-		function motionDown(){
-			var stageHeightD = setBase.height(),
-			contTopDown = parseInt(setWrap.css('top')),
-			moveTopDown = contTopDown - stageHeightD;
-			$('input,textarea').blur();
+}
 
-			var contHeight = setWrap.height(),
-			maxHeightAdj = -(contHeight - stageHeightD);
+	setTimeout(motionDownA(),500);
 
-				setWrap.stop().animate({top:moveTopDown},scrollSpeed,scrollEasing);
-				setNav.find('li.activeStage').removeClass('activeStage').next().addClass('activeStage');
+	function motionDownA(){
+		console.log("わいわい");
+	}
 
-				var acvStageN = parseInt($('body').attr('data-page')),
-				setNext = acvStageN+1;
-				$('body').attr('data-page',setNext);
-			}
 
-		
 
 });
