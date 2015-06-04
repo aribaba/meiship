@@ -38,30 +38,34 @@ $(function(){
 	var dv = 0;
 	var dgoal = ($(window).width() / 2) - (dw / 2);
 
-
-	setTimeout(wrap(),1000);
-
-	function wrap(){
-		console.log("wrap");
 	function MeishipSlideD() {
 		dx+= ++dv;
+		console.log(dx);
 		if(dx >= dgoal){
 			dx = dgoal;
 			clearInterval(TopDescInterval);
 		}
 		$('#desc').css('left', (dx / 10) + 'rem');
 	}
-
 	var TopDescInterval = setInterval(MeishipSlideD,15);
 
-}
+		function motionDown(){
+			var stageHeightD = setBase.height(),
+			contTopDown = parseInt(setWrap.css('top')),
+			moveTopDown = contTopDown - stageHeightD;
+			$('input,textarea').blur();
 
-	setTimeout(motionDownA(),500);
+			var contHeight = setWrap.height(),
+			maxHeightAdj = -(contHeight - stageHeightD);
 
-	function motionDownA(){
-		console.log("わいわい");
-	}
+				setWrap.stop().animate({top:moveTopDown},scrollSpeed,scrollEasing);
+				setNav.find('li.activeStage').removeClass('activeStage').next().addClass('activeStage');
 
+				var acvStageN = parseInt($('body').attr('data-page')),
+				setNext = acvStageN+1;
+				$('body').attr('data-page',setNext);
+			}
 
+		
 
 });

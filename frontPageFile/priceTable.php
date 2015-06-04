@@ -7,7 +7,7 @@
 		<dl id="option">
 			<dt class="">商品仕様</dt>
 			<dd>サイズ: 一般名刺91mm×55mm</dd>
-			<a href="#" title="">紙の仕様></a>
+			<a href="http://localhost:8888/kawakamiSite/papertype/" title="">紙の仕様></a>
 		</dl>
 		<dl id="option">
 			<dt class="">デザイン料</dt>
