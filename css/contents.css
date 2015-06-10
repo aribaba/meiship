@@ -25,9 +25,11 @@
 /* .stageBase
 --------------------------- */
 .stageBase {
-	width: 100%;
+	width: 1280px;
+	margin: 0 auto;
 	position: relative;
 	overflow: hidden;
+
 }
 .stageBase .fieldWrap {
 		padding: 10rem 0 0 0;
